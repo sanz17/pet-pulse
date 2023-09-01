@@ -11,7 +11,7 @@ import PublicRoute from "./components/PublicRoute";
 import Home from "./pages/Home";
 import Header from "./components/Header";
 import Features from "./pages/Features";
-import BMRCalculator from "./pages/BMRCalculator";
+import Location from "./pages/Location";
 import NutritionChecker from "./pages/NutritionChecker";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
@@ -32,7 +32,7 @@ const App = () => {
             path="/pages/nutrition-checker"
             element={<NutritionChecker />}
           />
-          <Route path="/pages/bmr-calculator" element={<BMRCalculator />} />
+          <Route path="/pages/bmr-calculator" element={<Location />} />
           <Route path="/pages/about" element={<About />} />
 
         

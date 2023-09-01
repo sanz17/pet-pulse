@@ -7,7 +7,7 @@ import Heart from '../assets/images/heart.jpg'
 
 const HeroBanner = () => {
   return (
-    <div style={{'backgroundColor':'pink','borderRadius':'10px'}}>
+    <div style={{'backgroundColor':'#BFD7ED','borderRadius':'10px'}}>
       <Box
         sx={{
           mt: { lg: '10px', xs: '70px' },

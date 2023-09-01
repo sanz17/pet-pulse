@@ -17,7 +17,7 @@ const BMRCalculator = () => {
           }}
         >
           <Typography variant="h4" sx={{ marginBottom: "1rem" }}>
-            BMR Calculator
+            Live location
           </Typography>
         </Box>
       </FormContainer>

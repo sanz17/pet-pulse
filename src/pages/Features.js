@@ -23,31 +23,31 @@ const FeaturesPage = () => {
     {
       title: "Nutrition Checker",
       description:
-        "With Nutrition Checker, you can quickly and easily see the nutritional value of any food, including calories, fat, protein, carbohydrates.",
-      link: "/pages/nutrition-checker",
+        "Check food's nutrition your pet is intaking",
+        link: "/pages/nutrition-checker",
     },
     {
-      title: "BMR Calculator",
+      title: "Live location",
       description:
-        "Calculate your Basal Metabolic Rate (BMR) to determine your daily calorie needs. Get insights into your metabolism.",
-      link: "/pages/bmr-calculator",
+        "Track where is your pet",
+        link: "/pages/bmr-calculator",
     },
     {
-      title: "Create Account",
+      title: "Heart rate",
       description:
-        "Create a personalized account to access additional features, save your progress, and customize your experience.",
-      link: "/pages/register",
+        "Check your pet's vitals such as heart rate.",
+        link: "/pages/register",
     },
     {
       title: "Meal Planner",
       description:
-        "The Meal Planner is a feature that helps you plan your meals for the Day. The Meal Planner is a great way to save time and money, and to eat healthier!",
+        "The Meal Planner of your pet !",
       link: "/pages/profile/meal-plan",
     },
     {
-      title: "Water Intake Log",
+      title: "Kuch feature",
       description:
-        "Feature that helps you track how much water you drink each day. You can enter the amount of water you drink each time you take a drink.",
+        "Another some feature",
       link: "/pages/profile/meal-plan",
     },
   ];
