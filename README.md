@@ -15,3 +15,8 @@ Change into the directory, and install the required dependencies
 cd pet-pulse
 npm i
   ```
+
+Start the server
+```shell
+npm run
+```
