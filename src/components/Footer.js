@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer>
       <Container fluid className="bg-white text-white py-3">
-        <Row>
+        {/* <Row>
           <Col md={6}>
             <Nav className="justify-content-center justify-content-md-start mb-3 mb-md-0">
               <Nav.Item>
@@ -42,7 +42,7 @@ const Footer = () => {
                 </a>
             </p>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </footer>
   );
