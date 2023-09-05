@@ -3,7 +3,7 @@ import { Box, Typography } from "@mui/material";
 import FormContainer from "../components/FormContainer";
 import Footer from "../components/Footer";
 
-const BMRCalculator = () => {
+const Location = () => {
   return (
     <><>
       <FormContainer>
@@ -25,4 +25,4 @@ const BMRCalculator = () => {
   );
 };
 
-export default BMRCalculator;
+export default Location;

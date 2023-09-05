@@ -5,9 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import { setCredentials } from "../slices/authSlice";
 import ProfileSidebar from "../components/ProfileSidebar";
 import UpdateProfile from "../components/UpdateProfile";
-import UpdateDietProfile from "../components/UpdateDietProfile";
 import MealPlan from "../components/MealPlan";
-import WaterIntake from "../components/WaterIntake";
 
 const Profile = () => {
   const dispatch = useDispatch();
@@ -32,9 +30,7 @@ const Profile = () => {
             path="update"
             element={<UpdateProfile userInfo={userInfo} dispatch={dispatch} />}
           />
-          <Route path="diet" element={<UpdateDietProfile />} />
           <Route path="meal-plan" element={<MealPlan />} />
-          <Route path="water-intake" element={<WaterIntake />} />
         </Routes>
       </Col>
     </Row>
