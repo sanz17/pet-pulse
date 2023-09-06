@@ -16,7 +16,6 @@ import NutritionChecker from "./pages/NutritionChecker";
 import Login from "./pages/Login";
 import Heartrate from "./pages/Heartrate";
 import Profile from "./pages/Profile";
-import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
 const App = () => {
@@ -32,8 +31,7 @@ const App = () => {
             path="/pages/nutrition-checker"
             element={<NutritionChecker />}
           />
-          <Route path="/pages/bmr-calculator" element={<Location />} />
-          <Route path="/pages/about" element={<About />} />
+          <Route path="/pages/location" element={<Location />} />
 
         
           <Route path="" element={<PublicRoute />}>

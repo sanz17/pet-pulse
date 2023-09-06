@@ -30,13 +30,13 @@ const FeaturesPage = () => {
       title: "Live location",
       description:
         "Track where is your pet",
-        link: "/pages/bmr-calculator",
+        link: "/pages/location",
     },
     {
       title: "Heart rate",
       description:
         "Check your pet's vitals such as heart rate.",
-        link: "/pages/register",
+        link: "/pages/heartrate",
     },
     {
       title: "Meal Planner",
