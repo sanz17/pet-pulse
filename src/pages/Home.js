@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 
-import HeroBanner from "../components/HeroBanner";
+import HomeBanner from "../components/HomeBanner";
 import Footer from "../components/Footer";
 import HomeContent from "../components/HomeContent";
 
@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <Container>
-        <HeroBanner />
+        <HomeBanner />
         <HomeContent />
       </Container>
       <Footer />

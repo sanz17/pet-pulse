@@ -2,7 +2,7 @@ import React from 'react';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import { Link, useLocation } from "react-router-dom";
 import { Box, Stack, Typography, Button } from '@mui/material';
-import HeroBannerImage from '../assets/images/highfive.jpg';
+import BannerImage from '../assets/images/highfive.jpg';
 import Heart from '../assets/images/heart.jpg'
 
 const HeroBanner = () => {
@@ -21,7 +21,7 @@ const HeroBanner = () => {
       >
         <Box flex="1">
           <img
-            src={HeroBannerImage}
+            src={BannerImage}
             alt="banner"
             className="img-fluid"
             style={{ maxWidth: '100%', 'borderRadius': '10px' }}
