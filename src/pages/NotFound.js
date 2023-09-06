@@ -8,8 +8,7 @@ const NotFoundPage = () => (
         <h1>404</h1>
         <h2>Page Not Found</h2>
         <p>
-          The page you are looking for might have been removed, had its name
-          changed, or is temporarily unavailable.
+          The page you are looking for has not been built yet. Lets start coding
         </p>
       </Col>
     </Row>
