@@ -14,7 +14,7 @@ import Features from "./pages/Features";
 import Location from "./pages/Location";
 import NutritionChecker from "./pages/NutritionChecker";
 import Login from "./pages/Login";
-import Register from "./pages/Register";
+import Heartrate from "./pages/Heartrate";
 import Profile from "./pages/Profile";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
@@ -37,7 +37,7 @@ const App = () => {
 
         
           <Route path="" element={<PublicRoute />}>
-            <Route path="/pages/register" element={<Register />} />
+            <Route path="/pages/Heartrate" element={<Heartrate />} />
             <Route path="/pages/login" element={<Login />} />
           </Route>
 

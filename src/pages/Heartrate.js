@@ -11,7 +11,7 @@ import { toast } from "react-toastify";
 import Loader from "../components/Loader";
 import Footer from "../components/Footer";
 
-const Register = () => {
+const Heartrate = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -109,4 +109,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default Heartrate;
