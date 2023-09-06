@@ -38,18 +38,7 @@ const FeaturesPage = () => {
         "Check your pet's vitals such as heart rate.",
         link: "/pages/heartrate",
     },
-    {
-      title: "Meal Planner",
-      description:
-        "The Meal Planner of your pet !",
-      link: "/pages/profile/meal-plan",
-    },
-    {
-      title: "Kuch feature",
-      description:
-        "Another some feature",
-      link: "/pages/profile/meal-plan",
-    },
+    
   ];
 
   return (

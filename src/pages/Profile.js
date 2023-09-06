@@ -4,7 +4,6 @@ import { Row, Col } from "react-bootstrap";
 import { Route, Routes } from "react-router-dom";
 import { setCredentials } from "../slices/authSlice";
 import UpdateProfile from "../components/UpdateProfile";
-import MealPlan from "../components/MealPlan";
 
 const Profile = () => {
   const dispatch = useDispatch();
@@ -28,7 +27,6 @@ const Profile = () => {
             path="update"
             element={<UpdateProfile userInfo={userInfo} dispatch={dispatch} />}
           />
-          <Route path="meal-plan" element={<MealPlan />} />
         </Routes>
       </Col>
     </Row>
