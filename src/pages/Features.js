@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
+import PetsIcon from '@mui/icons-material/Pets';
 
 const FeatureCard = ({ title, description, link }) => {
   return (
@@ -21,7 +22,8 @@ const FeaturesPage = () => {
   const features = [
 
     {
-      title: "Nutrition Checker",
+      title: "Nutrition Checker ",
+      icon:<PetsIcon/>,
       description:
         "Check food's nutrition your pet is intaking",
         link: "/pages/nutrition-checker",
@@ -33,9 +35,9 @@ const FeaturesPage = () => {
         link: "/pages/location",
     },
     {
-      title: "Heart rate",
+      title: "Vitalities",
       description:
-        "Check your pet's vitals such as heart rate.",
+        "Check your pet's heart rate, body temperature",
         link: "/pages/heartrate",
     },
     

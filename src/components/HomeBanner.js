@@ -5,7 +5,7 @@ import { Box, Stack, Typography, Button } from '@mui/material';
 import BannerImage from '../assets/images/highfive.jpg';
 import Heart from '../assets/images/heart.jpg'
 
-const HeroBanner = () => {
+const HomeBanner = () => {
   return (
     <div style={{'backgroundColor':'#BFD7ED','borderRadius':'10px'}}>
       <Box
@@ -51,4 +51,4 @@ const HeroBanner = () => {
   );
 };
 
-export default HeroBanner;
+export default HomeBanner;

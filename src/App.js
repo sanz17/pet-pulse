@@ -35,7 +35,7 @@ const App = () => {
 
         
           <Route path="" element={<PublicRoute />}>
-            <Route path="/pages/Heartrate" element={<Heartrate />} />
+            <Route path="/pages/heartrate" element={<Heartrate />} />
             <Route path="/pages/login" element={<Login />} />
           </Route>
 
