@@ -51,7 +51,7 @@ const NutritionCheckerForm = () => {
               className="mr-sm-2"
             />
             <Button
-              variant="outline-success"
+              variant="outline-dark"
               className="my-3"
               onClick={handleSearchNutrition}
             >
